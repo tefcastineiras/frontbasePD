@@ -1,0 +1,154 @@
+.btn-flotante {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+body {
+    background-color: rgb(238, 241, 217);
+
+}
+
+header {
+
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(145, 190, 151);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+
+h1 {
+    margin-right: 45%;
+}
+
+div {
+
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin: 30px;
+    display: flex;
+    /*punto 1*/
+
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+
+    min-width: 300px;
+    /*punto 2*/
+}
+
+nav {
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    /*punto 1*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: rgb(245, 248, 247);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    border-style: outset;
+    width: 40%;
+    margin-left: 25%;
+
+    padding-bottom: 30px;
+    border-radius: 35px;
+}
+
+/*@media(min-width:550px) {
+    .des {
+        display: none;
+    }
+}
+
+punto 3 y 4*/
+
+
+aside {
+    font-size: large;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+p {
+    font-style: italic;
+    color: rgb(223, 221, 221);
+}
+
+
+
+footer {
+    background-color: rgb(182, 101, 64);
+    display: flex;
+    /*punto 1*/
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 10%;
+    border-radius: 35px;
+    margin: 20px;
+}
+
+.fotos {
+    border-radius: 30px;
+    width: 15%;
+}
+
+.icon {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+.link {
+    width: 25%;
+    min-width: 300px;
+
+    margin-bottom: 15px;
+}
+
+.misdatos {
+    color: rgb(197, 195, 194);
+    font-size: 1em;
+    margin: 40px;
+}
+
+
+
+
+/* a link {
+    color: blue;
+text-decoration: none;}
+a :visited{color: blueviolet;}
+a :hover {font-size: large;}
+
+
+*/
