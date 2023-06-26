@@ -1,95 +1,159 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+
+    <meta name="description" content="Pagina web prueba">
+    <meta name="keywords" content="Comida Italiana, Recetas,Receta, comida, Italia, Pizza">
+    <meta name="author" content="Estefanía Castiñeiras">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aromas naturales</title>
-    <link rel="stylesheet" href="./css/estilos.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script>alert("Bienvenida!")</script>
 
 </head>
 
-<body>
+<body id="body">
+
     <a class="btn-flotante" href="https://wa.me/541160589638" target="_blank"><img width="50" height="50"
             src="./imagenes/iconwhatsapp.jpeg" alt=""></a>
 
-    <header>
-        <img class="logo" src="https://i.pinimg.com/564x/6c/31/b5/6c31b54721241bf062911150b282a20c.jpg" alt="">
+    <button class="cambiar" onclick="inclusive()  ">Sitio Nocturno</button>
 
-        <h1>Recetarios de aromas naturales</h1>
+    <header id="header">
 
+        <img class="logo" src="./imagenes/logoromero.jpg" alt="logo">
+        <h1>Plantas que acompañan</h1>
+        <div class="rrss">
+            <a href="https://wa.me/541160589638" target="_blank" width="10" height="10"><img class="icon"
+                    src="./imagenes/iconwhatsapp.jpeg" alt=""></a>
+            <a href="https://m.facebook.com/" target="_blank"><img class="icon" src="./imagenes/iconofacebook.png"
+                    alt=""></a>
+            <a href="https://www.instagram.com/lapitonisa.ar/" width="30" height="30" target="_blank"><img class="icon"
+                    src="./imagenes/iconinstagram.jpeg" alt=""></a>
+            <a href="https://www.youtube.com/@lapitonisa_ar" width="30" height="30" target="_blank"><img class="icon"
+                    src="./imagenes/iconyoutube.jpeg" alt=""></a>
+        </div>
     </header>
 
-    <nav>
-        <a class="link" href="">Hierbas y usos</a>
-        <a class="link" href="">Tinturas madres</a>
-        <a class="link" href="">Sahumos</a>
-        <a class="link" href="">Hierbas y regentes</a>
+    <nav class="nav">
+        <a class="link"
+            href="https://www.instagram.com/reel/Ct47ys-Amfa/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+            target="_blank">Loción mix hierbas</a>
+        <a class="link"
+            href="https://www.instagram.com/reel/Crlh8Ongro2/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+            target="_blank">Loción Palo Santo</a>
+        <a class="link"
+            href="https://www.instagram.com/p/Creg1ntNH6Y/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+            target="_blank">Loción Manzanilla</a>
+        <a href="https://www.instagram.com/p/CrDuJDftEi3/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+            target="_blank">Loción Jazmín</a>
 
     </nav>
 
-    <main>
+    <main id="main">
+
+
         <section>
-            <h2>Receta base</h2>
-            <h3>Ingredientes</h3>
+            <h2>Receta base para perfume</h2>
+            <h3 id="h3">Ingredientes</h3>
             <ul>
                 <li>Envase de vidrio con tapa</li>
                 <li>Hierbas secas</li>
                 <li>Alcohol etílico al 96%</li>
-                <li>Agua mineral</li>
+                <li>Agua potable</li>
             </ul>
 
             <h3>Preparación</h3>
-            <li>Colocar las hierbas en el envase </li>
-            <li>llenar 2/3 del envase con alcohol al 96%</li>
-            <li>Llenar el resto con el agua</li>
-            <li>Tapar y guardar en
-                un lugar fresco y oscuro por minimo 60 días.</li>
-            <li>Llenar el resto con el agua</li>
-            <li>Luego filtrar y colocar en un envase con atomizador</li>
+            <ol>
+                <li>Colocar las hierbas en el envase</li>
+                <li>Llenar 2/3 del envase con alcohol al 96%</li>
+                <li>Llenar el resto con el agua</li>
+                <li>Tapar y guardar en un lugar fresco y oscuro por minimo 60 días.</li>
+                <li>Luego filtrar y colocar en un envase con atomizador</li>
 
-
-
+            </ol>
         </section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PkuhlZZb6us" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <p class="des">Colonia casera</p>
     </main>
 
-    <aside>
 
 
-        <section>
-            <img class="fotos" src="./imagenes/Selección_290.png" alt="">
-            <img class="fotos" src="./imagenes/Selección_291.png" alt="">
-        </section>
+    <div class="container">
+        <div class="row"></div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
+            <img src="./imagenes/Selección_290.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Hierbas</p>
+            </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
+            <img src="./imagenes/Selección_291.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Mezcla de aromas</p>
+            </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
+            <img src="./imagenes/naranja.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Naranja</p>
+            </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
+            <img src="./imagenes/atomizadores.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Atomizadores</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
 
 
-    </aside>
-
-    <footer>
+    <footer id="footer" class="footer">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8100.28975012965!2d-64.24371594873142!3d-31.393392610629412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1685245279167!5m2!1ses!2sar"
-            width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.2157193253643!2d-64.27103393227732!3d-31.380614899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329ee702d05c3b%3A0x9f4da8cdcbccae46!2sAv.%20Mahatma%20Gandhi%20740%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1687816858784!5m2!1ses!2sar"
+            width="" height="" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="rrss">
-
+            <a href="https://wa.me/541160589638" width="30" height="30" target="_blank"><img class="icon"
+                    src="./imagenes/iconwhatsapp.jpeg" alt=""></a>
             <a href="https://m.facebook.com/" target="_blank"><img class="icon" src="./imagenes/iconofacebook.png"
                     alt=""></a>
             <a href="https://www.instagram.com/?hl=es-la" width="30" height="30" target="_blank"><img class="icon"
                     src="./imagenes/iconinstagram.jpeg" alt=""></a>
-            <a href="https://www.linkedin.com/in/estefaníacastiñeiras/" width="30" height="30" target="_blank"><img
-                    class="icon" src="./imagenes/linkedin-icon-free.png" alt=""></a>
+            <a href="https://www.youtube.com/embed/atKtlyhcRlM" width="30" height="30" target="_blank"><img class="icon"
+                    src="./imagenes/iconyoutube.jpeg" alt=""></a>
         </div>
 
-
-        <p class="misdatos">Estefanía Castiñeiras,<br />Córdoba, Argentina,<br />estefaniacastineiras@gmail.com</p>
-
-
-
+        <button onclick="Copyright()">Copyright ©</button>
     </footer>
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
